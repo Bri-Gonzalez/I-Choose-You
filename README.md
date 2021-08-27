@@ -1,5 +1,3 @@
-# I-Choose-You
-
 # Project Overview
 
 ## Project Name
