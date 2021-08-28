@@ -180,13 +180,13 @@ add description of wireframe
 
 - Create a Home page where user chooses to "Select their starter Pokemon" or "Catch Pokemon"
 - Add a "Catch Pokemon" page:
-* User will click a button to get back randomly generated Pokemon
-* User will be able to decide whether to "catch" the Pokemon or "let it free"
-* Save the caught Pokemon
+
+...1. User will click a button to get back randomly generated Pokemon with the Pokemon's name and sprite 
+...2. User will be able to decide whether to "catch" the Pokemon or "set it free"
+...3. Save the caught Pokemon
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
 
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
