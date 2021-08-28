@@ -166,24 +166,23 @@ JSON
 [wireframe]: wireframe.png
 ![wireframe] [wireframe]
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+add description of wireframe
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
+- Use the PokeAPI to return the names and sprites of different Pokemon
 - Render data on page 
-- Allow user to choose favorites 
+- Allow user to select a Pokeball button by element type (Fire, Grass or Water), and then get back a Pokemon name and sprite for the element type selected
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Create a Home page where user chooses to "Select their starter Pokemon" or "Catch Pokemon"
+- Add a "Catch Pokemon" page:
+* User will click a button to get back randomly generated Pokemon
+* User will be able to decide whether to "catch" the Pokemon or "let it free"
+* Save the caught Pokemon
 
 ## Project Schedule
 
