@@ -181,9 +181,9 @@ add description of wireframe
 - Create a Home page where user chooses to "Select their starter Pokemon" or "Catch Pokemon"
 - Add a "Catch Pokemon" page:
 
-   1. User will click a button to get back randomly generated Pokemon with the Pokemon's name and sprite 
-   2. User will be able to decide whether to "catch" the Pokemon or "set it free"
-   3. Save the caught Pokemon
+   * User will click a button to get back randomly generated Pokemon with the Pokemon's name and sprite 
+   * User will be able to decide whether to "catch" the Pokemon or "set it free"
+   * Save the caught Pokemon
 
 ## Project Schedule
 
@@ -192,13 +192,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|August 27 - 29| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|August 30| Project Approval/ Core Application Structure (HTML, CSS, JS) | Incomplete
+|August 31| Pseudocode / Actual Code | Incomplete
+|September 1| CSS Styling | Incomplete
+|September 2| Complete MVP | Incomplete
+|Septmeber 3| Presentations | Incomplete 
 
 ## Priority Matrix
 
@@ -206,15 +205,22 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Basic HTML Structure | H | 2hrs | - | - |
+| CSS Classes & IDs | H | 2hrs | - | - |
+| Setting Variables/Query Selecting/Adding Event Listeners | H | 2hrs| - | - |
+| Logic for randomizing data from API  | H | 5hrs| - | - |
+| Getting specific data from API and then randomizing it | H | 5hrs| - | - |
+| Appending Variables to Page | H | 2hrs | - | - |
+| Building HTML components | H | 3hrs| - | - |
+| CSS Style Header and Instructions | M | 4hrs| - | - |
+| CSS Style Buttons | M | 5hrs| - | - |
+| CSS Style Pokemon Container | M | 5hrs| - | - |
+| CSS Style Background | L | 4hrs| - | - |
+| CSS Style Fonts/Colors | L | 2hrs| - | - |
+| Media Query App | H | 4hrs| - | - |
+| Total |  | 45hrs | - | - |
 
 ## Code Snippet
 
