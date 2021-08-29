@@ -162,8 +162,7 @@ JSON
 ```
 
 ## Wireframes
-[wireframe]: wireframe.png
-![wireframe] [wireframe]
+![wireframe](wireframe.png)
 
 ### MVP/PostMVP
 
@@ -194,7 +193,6 @@ JSON
 |Septmeber 3| Presentations | Incomplete 
 
 ## Priority Matrix
-
 ![Matrix](matrix.png)
 
 
@@ -219,7 +217,7 @@ JSON
 
 ## Code Snippet
 
-This code takes specific Pokemon IDs, randomizes them by index, and then assigns the random index back to the specific Pokemon ID within the fireType array. This piece of code allows me to grab a random Pokemon of a specific type that I couldn't get straight from the API.  
+This code takes specific Pokemon IDs, randomizes them by index, and then assigns the random index back to a Pokemon ID within the fireType array. This piece of code allows me to grab a random Pokemon of a specific type. I wouldn't have been able to do this straight from the API.  
 
 ```
 let fireType = [4, 25, 37, 58, 77, 126];
