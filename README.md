@@ -161,12 +161,9 @@ JSON
 }
 ```
 
-
 ## Wireframes
 [wireframe]: wireframe.png
 ![wireframe] [wireframe]
-
-add description of wireframe
 
 ### MVP/PostMVP
 
@@ -187,12 +184,9 @@ add description of wireframe
 
 ## Project Schedule
 
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 27 - 29| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|August 27 - 29| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 30| Project Approval/ Core Application Structure (HTML, CSS, JS) | Incomplete
 |August 31| Pseudocode / Actual Code | Incomplete
 |September 1| CSS Styling | Incomplete
@@ -201,7 +195,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+![Priority Matrix] (priority-matrix.jpg)
 
 ## Timeframes
 
@@ -224,12 +218,12 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+This code takes specific Pokemon IDs, randomizes them by index, and then assigns the random index back to the specific Pokemon ID within the fireType array. This piece of code allows me to grab a random Pokemon of a specific type that I couldn't get straight from the API.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+let fireType = [4, 25, 37, 58, 77, 126];
+  let randomFire = Math.floor(Math.random() * fireType.length);
+  let randomPokemonID = fireType[randomFire];
 ```
 
 ## Change Log
