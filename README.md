@@ -195,7 +195,8 @@ JSON
 
 ## Priority Matrix
 
-![Priority Matrix] (prioritymatrix.jpg)
+![Priority Matrix] (prioritymatrix.png)
+![Priority Matrix] [Priority Matrix]
 
 ## Timeframes
 
