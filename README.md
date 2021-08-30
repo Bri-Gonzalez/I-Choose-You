@@ -198,7 +198,7 @@ The user will select one of 3 pokeballs. The Pokeballs will be labeled by elemen
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Basic HTML Structure | H | 2hrs | - | - |
+| Basic HTML Structure | H | 3hrs | - | - |
 | CSS Classes & IDs | H | 2hrs | - | - |
 | Setting Variables/Query Selecting/Adding Event Listeners | H | 2hrs| - | - |
 | Logic for randomizing data from API  | H | 5hrs| - | - |
@@ -206,10 +206,10 @@ The user will select one of 3 pokeballs. The Pokeballs will be labeled by elemen
 | Appending Variables to Page | H | 2hrs | - | - |
 | Building HTML components | H | 3hrs| - | - |
 | CSS Style Header and Instructions | M | 4hrs| - | - |
-| CSS Style Buttons | M | 5hrs| - | - |
-| CSS Style Pokemon Container | M | 5hrs| - | - |
+| CSS Style Buttons | M | 4hrs| - | - |
+| CSS Style Pokemon Container | M | 4hrs| - | - |
 | CSS Style Background | L | 4hrs| - | - |
-| CSS Style Fonts/Colors | L | 2hrs| - | - |
+| CSS Style Fonts/Colors | L | 3hrs| - | - |
 | Media Query App | H | 4hrs| - | - |
 | Total |  | 45hrs | - | - |
 
