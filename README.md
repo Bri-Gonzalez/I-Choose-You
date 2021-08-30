@@ -10,10 +10,8 @@ This app will allow a user to choose their starter Pokemon so they can begin the
 The user will select one of 3 pokeballs. The Pokeballs will be labeled by element type: grass, fire, and water. Once the user selects the element type they want, the app will generate back a random Pokemon name and image of that type.
 
 ## API and Data Sample
-
 [PokeAPI](https://pokeapi.co/)
 
-JSON 
 ```{
   "id": 12,
   "name": "butterfree",
