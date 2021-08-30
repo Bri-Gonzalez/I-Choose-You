@@ -7,7 +7,7 @@ I Choose You
 ## Project Description
 
 This app will allow a user to choose their starter Pokemon so they can begin their journey as a trainer.
-The user will select one of 3 pokeballs. The Pokeballs will be labeled by element type: grass, fire, and water. Once the user selects the element type they want, the app will generate back a random Pokemon of that type.
+The user will select one of 3 pokeballs. The Pokeballs will be labeled by element type: grass, fire, and water. Once the user selects the element type they want, the app will generate back a random Pokemon name and image of that type.
 
 ## API and Data Sample
 
