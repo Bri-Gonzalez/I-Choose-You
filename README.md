@@ -173,12 +173,12 @@ The user will select one of 3 pokeballs. The Pokeballs will be labeled by elemen
 
 #### PostMVP  
 
-- Create a Home page where user chooses to "Select their starter Pokemon" or "Catch Pokemon"
 - Add a "Catch Pokemon" page:
 
    * User will click a button to get back randomly generated Pokemon with the Pokemon's name and sprite 
    * User will be able to decide whether to "catch" the Pokemon or "set it free"
    * Save the caught Pokemon
+- Add a page where Pokemon can battle using either randomized stats, or the actual stats given on PokeAPI
 
 ## Project Schedule
 
