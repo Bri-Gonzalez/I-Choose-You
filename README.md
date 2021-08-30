@@ -11,7 +11,7 @@ The user will select one of 3 pokeballs. The Pokeballs will be labeled by elemen
 
 ## API and Data Sample
 
-[PokeAPI] (https://pokeapi.co/)
+[PokeAPI](https://pokeapi.co/)
 
 JSON 
 ```{
