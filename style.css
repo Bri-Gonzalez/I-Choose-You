@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.topnav {
+  background-color: #FF4E4A;
+  height: 30px;
+
+}
+
 .button {
   background-color: transparent;
   border: none;
