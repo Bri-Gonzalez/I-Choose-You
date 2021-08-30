@@ -162,7 +162,7 @@ JSON
 ```
 
 ## Wireframes
-![wireframe](wireframe.png)
+![wireframe](https://res.cloudinary.com/dfryxohde/image/upload/v1630329431/Screen_Shot_2021-08-30_at_7.47.10_AM_xnz0pa.png)
 
 
 ### MVP/PostMVP
@@ -194,7 +194,7 @@ JSON
 |Septmeber 3| Presentations | Incomplete 
 
 ## Priority Matrix
-![Matrix](matrix.png)
+![Matrix](https://res.cloudinary.com/dfryxohde/image/upload/v1630329445/Priority_Matrix_1_kl8qks.jpg)
 
 
 ## Timeframes
