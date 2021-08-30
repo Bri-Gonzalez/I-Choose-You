@@ -6,8 +6,8 @@ I Choose You
 
 ## Project Description
 
-This app will allow a user to choose their starter Pokemon so they can begin their journey as a trainer.
-The user will select one of 3 pokeballs. The Pokeballs will be labeled by element type: grass, fire, and water. Once the user selects the element type they want, the app will generate back a random Pokemon name and image of that type.
+This app will allow a user to choose their starter Pokémon so they can begin their journey as a trainer.
+The user will select one of 3 Poké Balls. The Poké Balls will be labeled by element type: grass, fire, and water. Once the user selects the element type they want, the app will generate back a random Pokémon name and image of that type.
 
 ## API and Data Sample
 [PokeAPI](https://pokeapi.co/)
@@ -167,17 +167,17 @@ The user will select one of 3 pokeballs. The Pokeballs will be labeled by elemen
 
 #### MVP 
 
-- Use the PokeAPI to return the names and sprites of different Pokemon
+- Use the PokeAPI to return the names and sprites of different Pokémon
 - Render data on page 
-- Allow user to select a Pokeball button by element type (Fire, Grass or Water), and then get back a Pokemon name and sprite for the element type selected
+- Allow user to select a Poké Ball button by element type (Fire, Grass or Water), and then get back a Pokémon name and sprite for the element type selected
 
 #### PostMVP  
 
-- Add a "Catch Pokemon" page:
+- Add a "Catch Pokémon" page:
 
-   * User will click a button to get back randomly generated Pokemon with the Pokemon's name and sprite 
-   * User will be able to decide whether to "catch" the Pokemon or "set it free"
-   * Save the caught Pokemon
+   * User will click a button to get back randomly generated Pokémon with the Pokémon's name and sprite 
+   * User will be able to decide whether to "catch" the Pokémon or "set it free"
+   * Save the caught Pokémon
 
 ## Project Schedule
 
@@ -207,8 +207,8 @@ The user will select one of 3 pokeballs. The Pokeballs will be labeled by elemen
 | Building HTML components | H | 3hrs | - | - |
 | CSS Style Header and Instructions | M | 4hrs | - | - |
 | CSS Style Buttons | M | 4hrs| - | - |
-| CSS Create Pokemon Container | H | 2hrs | - | - |
-| CSS Style Pokemon Container Components | M | 3hrs | - | - |
+| CSS Create Pokémon Container | H | 2hrs | - | - |
+| CSS Style Pokémon Container Components | M | 3hrs | - | - |
 | CSS Style Background | L | 4hrs | - | - |
 | CSS Style Fonts/Colors | L | 3hrs | - | - |
 | Media Query App | H | 4hrs | - | - |
@@ -216,7 +216,7 @@ The user will select one of 3 pokeballs. The Pokeballs will be labeled by elemen
 
 ## Code Snippet
 
-This code takes specific Pokemon IDs, randomizes them by index, and then assigns the random index back to a Pokemon ID within the fireType array. This piece of code allows me to grab a random Pokemon of a specific type. I wouldn't have been able to do this straight from the API.  
+This code takes specific Pokémon IDs, randomizes them by index, and then assigns the random index back to a Pokémon ID within the fireType array. This piece of code allows me to grab a random Pokémon of a specific type. I wouldn't have been able to do this straight from the API.  
 
 ```
 let fireType = [4, 25, 37, 58, 77, 126];
