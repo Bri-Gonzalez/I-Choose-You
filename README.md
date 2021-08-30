@@ -200,18 +200,18 @@ The user will select one of 3 pokeballs. The Pokeballs will be labeled by elemen
 | --- | :---: |  :---: | :---: | :---: |
 | Basic HTML Structure | H | 2hrs | - | - |
 | CSS Classes & IDs | H | 2hrs | - | - |
-| Setting Variables/Query Selecting/Adding Event Listeners | H | 2hrs| - | - |
-| Logic for randomizing data from API  | H | 5hrs| - | - |
+| Setting Variables/Query Selecting/Adding Event Listeners | H | 2hrs | - | - |
+| Logic for randomizing data from API  | H | 5hrs | - | - |
 | Getting specific data from API and then randomizing it | H | 5hrs| - | - |
 | Appending Variables to Page | H | 2hrs | - | - |
-| Building HTML components | H | 3hrs| - | - |
-| CSS Style Header and Instructions | M | 4hrs| - | - |
+| Building HTML components | H | 3hrs | - | - |
+| CSS Style Header and Instructions | M | 4hrs | - | - |
 | CSS Style Buttons | M | 4hrs| - | - |
-| CSS Style Pokemon Container Wireframe | M | 2hrs| - | - |
-| CSS Style Pokemon Container Components | M | 3hrs| - | - |
-| CSS Style Background | L | 4hrs| - | - |
-| CSS Style Fonts/Colors | L | 3hrs| - | - |
-| Media Query App | H | 4hrs| - | - |
+| CSS Create Pokemon Container | H | 2hrs | - | - |
+| CSS Style Pokemon Container Components | M | 3hrs | - | - |
+| CSS Style Background | L | 4hrs | - | - |
+| CSS Style Fonts/Colors | L | 3hrs | - | - |
+| Media Query App | H | 4hrs | - | - |
 | Total |  | 45hrs | - | - |
 
 ## Code Snippet
