@@ -1,16 +1,20 @@
-// const URL = "https://pokeapi.co/api/v2/pokemon?limit=151";
 const URL = "https://pokeapi.co/api/v2/pokemon/"
-
-const button = document.querySelector(".pokeball");
 const starterPokemon = document.querySelector(".starter-pokemon");
 
-button.addEventListener("click", pokemonGenerator);
 
-async function pokemonGenerator() {
 
-  let fireType = [4, 25, 37, 58, 77, 126];
+//Grass Type Button
+
+
+
+// Fire Type Button
+const fireBtn = document.querySelector("#fireBtn");
+fireBtn.addEventListener("click", firePokemon);
+
+async function firePokemon() {
+
+  let fireType = [813, 498, 653, 725, 390, 155, 255, 4];
   let randomFire = Math.floor(Math.random() * fireType.length);
-  // let randomPokemonID = Math.floor(Math.random() * 151) + 1;
   let randomPokemonID = fireType[randomFire];
   try {
     let res = await axios.get(`${URL}${randomPokemonID}`);
@@ -27,3 +31,5 @@ async function pokemonGenerator() {
     console.log(error);
   }
 }
+
+//Water Type Button

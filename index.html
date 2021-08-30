@@ -5,15 +5,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script defer src="./app.js"></script>
   <title>Document</title>
 </head>
 
 <body>
-  <button class="pokeball">Click</button>
-  <section class="starter-pokemon">
-  </section>
+  <div class="topnav"></div>
+  <div class="title">I Choose You</div>
+  <div class="instructions">
+    <p><b>Hey Trainer! Welcome to Professor Oak's Lab. Let's start your Pokemon journey.</b></p>
+    <p>Select a Pokeball below to get your starter Pokemon. You may choose to receive either a grass, fire, or water
+      type. Who knows, maybe you'll get a rare Pickachu!</p>
+  </div>
+  <div>
+    <button class="button" id="grassBtn">
+      <img src="https://res.cloudinary.com/dfryxohde/image/upload/v1630345208/pokeball-transparent-png-2_ufauux.png"
+        alt="grass pokeball">
+    </button>
+    <button class="button" id="fireBtn">
+      <img src="https://res.cloudinary.com/dfryxohde/image/upload/v1630345208/pokeball-transparent-png-2_ufauux.png"
+        alt="fire pokeball">
+    </button>
+    <button class="button" id="waterBtn">
+      <img src="https://res.cloudinary.com/dfryxohde/image/upload/v1630345208/pokeball-transparent-png-2_ufauux.png"
+        alt="water pokeball">
+    </button>
+  </div>
+  <div>
+    <p>Grass</p>
+    <p>Fire</p>
+    <p>Water</p>
+  </div>
+  <div class="starter-pokemon">
+    <div class="pokemon-img"></div>
+    <div class="pokemon-name"></div>
+  </div>
 </body>
 
 </html>
