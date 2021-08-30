@@ -162,7 +162,7 @@ JSON
 ```
 
 ## Wireframes
-![wireframe](wireframe1.png)
+![wireframe](wireframe.png)
 
 
 ### MVP/PostMVP
