@@ -1,15 +1,30 @@
 * {
   text-align: center;
+  align-content: center;
 }
 
 .topnav {
   background-color: #FF4E4A;
-  height: 30px;
-
+  height: 35px;
 }
 
 .button {
+  display: inline-flex;
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+img {
+  width: 130px;
+}
+
+.starter-container {
+  margin: auto;
+  width: 190px;
+  height: 210px;
+  border-color: #FF4E4A;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
 }

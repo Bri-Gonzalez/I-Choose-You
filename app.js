@@ -1,11 +1,20 @@
 const URL = "https://pokeapi.co/api/v2/pokemon/"
-const starterImg = document.querySelector(".pokemon-img");
-const starterName = document.querySelector(".pokemon-name");
+// const starterImg = document.createElement("div");
+// starterImg.classList.add(".pokemon-img")
+// const starterName = document.createElement("div");
+// starterName.classList.add(".pokemon-name")
+
+// const starterName = document.querySelector(".pokemon-name");
 const starterContainer = document.querySelector(".starter-container");
+// starterContainer.append(starterImg)
+// starterContainer.append(starterName)
 
 //GRASS
 const grassBtn = document.querySelector("#grassBtn");
-grassBtn.addEventListener("click", grassPokemon);
+grassBtn.addEventListener("click", () => {
+  removePokemon()
+  grassPokemon()
+});
 
 async function grassPokemon() {
 
@@ -13,16 +22,25 @@ async function grassPokemon() {
   let randomGrass = Math.floor(Math.random() * grassType.length);
   let randomPokemonID = grassType[randomGrass];
 
+  const starterImg = document.createElement("div");
+  starterImg.classList.add(".pokemon-img")
+  starterContainer.append(starterImg)
+  const starterName = document.createElement("div");
+  starterName.classList.add(".pokemon-name")
+  starterContainer.append(starterName)
+
   try {
     let res = await axios.get(`${URL}${randomPokemonID}`);
 
     let grassImg = document.createElement("img");
     grassImg.src = res.data.sprites.front_default;
     starterImg.append(grassImg);
+    starterContainer.append(starterImg);
 
     let grassName = document.createElement("h3");
     grassName.innerText = res.data.name;
     starterName.append(grassName);
+    starterContainer.append(starterName);
 
   } catch (error) {
     console.log(error);
@@ -31,7 +49,10 @@ async function grassPokemon() {
 
 //FIRE
 const fireBtn = document.querySelector("#fireBtn");
-fireBtn.addEventListener("click", firePokemon);
+fireBtn.addEventListener("click", () => {
+  removePokemon()
+  firePokemon()
+});
 
 async function firePokemon() {
 
@@ -39,16 +60,25 @@ async function firePokemon() {
   let randomFire = Math.floor(Math.random() * fireType.length);
   let randomPokemonID = fireType[randomFire];
 
+  const starterImg = document.createElement("div");
+  starterImg.classList.add(".pokemon-img")
+  starterContainer.append(starterImg)
+  const starterName = document.createElement("div");
+  starterName.classList.add(".pokemon-name")
+  starterContainer.append(starterName)
+
   try {
     let res = await axios.get(`${URL}${randomPokemonID}`);
 
     let fireImg = document.createElement("img");
     fireImg.src = res.data.sprites.front_default;
     starterImg.append(fireImg);
+    starterContainer.append(starterImg);
 
     let fireName = document.createElement("h3");
     fireName.innerText = res.data.name;
     starterName.append(fireName);
+    starterContainer.append(starterName);
 
   } catch (error) {
     console.log(error);
@@ -57,7 +87,10 @@ async function firePokemon() {
 
 //WATER
 const waterBtn = document.querySelector("#waterBtn");
-waterBtn.addEventListener("click", waterPokemon);
+waterBtn.addEventListener("click", () => {
+  removePokemon()
+  waterPokemon()
+});
 
 async function waterPokemon() {
 
@@ -65,37 +98,34 @@ async function waterPokemon() {
   let randomWater = Math.floor(Math.random() * waterType.length);
   let randomPokemonID = waterType[randomWater];
 
+  const starterImg = document.createElement("div");
+  starterImg.classList.add(".pokemon-img")
+  starterContainer.append(starterImg)
+  const starterName = document.createElement("div");
+  starterName.classList.add(".pokemon-name")
+  starterContainer.append(starterName)
+
   try {
     let res = await axios.get(`${URL}${randomPokemonID}`);
 
     let waterImg = document.createElement("img");
     waterImg.src = res.data.sprites.front_default;
     starterImg.append(waterImg);
+    starterContainer.append(starterImg);
 
     let waterName = document.createElement("h3");
     waterName.innerText = res.data.name;
     starterName.append(waterName);
+    starterContainer.append(starterName);
 
   } catch (error) {
     console.log(error);
   }
 }
 
-// const resetScreen = () => {
-//   starterContainer.classList.remove("hide");
-//   for (const type of )
-// }
-
-// function clearLastPokemon() {
-//   const pokemon = document.querySelectorAll('.starter-container div')
-//   for (let i = 0; i < pokemon.length; i++) {
-//     pokemon[i].parentNode.removeChild(pokemon[i])
-//   }
-
-// function removeOldContent() {
-//   starterContainer.innerHTML = "";
-// };
-
-// function reset() {
-//   document.querySelector(".pokemon-image").reset();
-// }
+//REMOVE
+function removePokemon() {
+  while (starterContainer.lastChild) {
+    starterContainer.removeChild(starterContainer.lastChild)
+  }
+}
