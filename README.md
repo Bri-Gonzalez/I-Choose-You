@@ -198,11 +198,11 @@ The user will select one of 3 Poké Balls. The Poké Balls will be labeled by el
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Basic HTML Structure | H | 2hrs | - | - |
-| CSS Classes & IDs | H | 2hrs | - | - |
-| Setting Variables/Query Selecting/Adding Event Listeners | H | 2hrs | - | - |
-| Logic for randomizing data from API  | H | 5hrs | - | - |
-| Getting specific data from API and then randomizing it | H | 5hrs| - | - |
+| Basic HTML Structure | H | 2hrs | 1hr | 1hr |
+| CSS Classes & IDs | H | 2hrs | 1hr | 1hr |
+| Setting Variables/Query Selecting/Adding Event Listeners | H | 2hrs | 2hr | 2hr |
+| Logic for randomizing data from API  | H | 5hrs | 3hr | 3hr |
+| Getting specific data from API and then randomizing it | H | 5hrs| 5hr | 5hr |
 | Appending Variables to Page | H | 2hrs | - | - |
 | Building HTML components | H | 3hrs | - | - |
 | CSS Style Header and Instructions | M | 4hrs | - | - |

@@ -1,5 +1,6 @@
 * {
   text-align: center;
+  /* align-content: center; */
 }
 
 header {
@@ -10,24 +11,25 @@ header {
 h1 {
   background-color: #FF4E4A;
   color: white;
-  width: 300px;
+  width: 350px;
   margin: 30px auto;
-  padding: 10px;
+  /* padding: 10px; */
   border-radius: 20px;
   font-family: "itim", sans-serif;
-  /* font-size: 40px; */
+  font-size: 45px;
 }
 
 .instructions {
   width: 600px;
-  margin: 40px auto;
+  margin: 35px auto;
   display: flex;
   flex-direction: column;
 }
 
-h2, h3 {
+h2 {
   margin: 5px;
-  font-family: "itim", sans-serif;
+  font-family: "boogaloo", sans-serif;
+  font-size: 30px;
 }
 
 p {
@@ -42,22 +44,92 @@ p {
   cursor: pointer;
 }
 
-img {
+.button img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1.5;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 2px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(-1px, -2px) rotate(0deg); }
+  40% { transform: translate(0px, 3px) rotate(1deg); }
+  50% { transform: translate(-1px, -2px) rotate(-1deg); }
+  60% { transform: translate(1px, 2px) rotate(0deg); }
+  70% { transform: translate(-1px, -2px) rotate(-1deg); }
+  80% { transform: translate(-3px, 0px) rotate(1deg); }
+  90% { transform: translate(-1px, -2px) rotate(0deg); }
+  100% { transform: translate(0px, 3px) rotate(-1deg); }
+}
+
+.button img {
   width: 130px;
-  margin: 0px 15px 15px 0px;
+  margin: 0px 5px 5px 5px;
+}
+
+.button p{
+  font-family: "boogaloo", sans-serif;
+  font-size: 20px;
 }
 
 .starter-container {
-  margin: 30px auto;
-  width: 190px;
-  height: 210px;
+  margin: 35px auto;
+  width: 200px;
+  height: 200px;
   border-color: #FF4E4A;
   border-style: solid;
-  border-width: 10px;
+  border-width: 15px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-footer {
+.starter-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.starter-container h3 {
+  font-family: "boogaloo", sans-serif;
+  font-size: 30px;
+}
+
+/* footer {
   background-color: #FF4E4A;
   height: 35px;
+} */
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .instructions {
+    width: 350px;
+  }
+
+  .button img {
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 40px;
+    width: 270px;
+  }
+
+  .instructions {
+    width: 270px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .button img {
+    width: 76px;
+  }
 }
