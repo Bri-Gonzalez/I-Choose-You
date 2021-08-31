@@ -1,13 +1,31 @@
 const URL = "https://pokeapi.co/api/v2/pokemon/"
+const starterContainer = document.querySelector(".starter-container");
 // const starterImg = document.createElement("div");
 // starterImg.classList.add(".pokemon-img")
+// starterContainer.append(starterImg)
 // const starterName = document.createElement("div");
 // starterName.classList.add(".pokemon-name")
+// starterContainer.append(starterName)
 
 // const starterName = document.querySelector(".pokemon-name");
-const starterContainer = document.querySelector(".starter-container");
-// starterContainer.append(starterImg)
-// starterContainer.append(starterName)
+
+
+
+
+//CREATE 
+// function appendImg(url) {
+//   let starterImg = document.createElement("div");
+//   starterImg.src = url;
+//   starterImg.classList.add(".pokemon-img");
+//   starterContainer.append(starterImg);
+// };
+
+// function appendName(text) {
+//   let starterName = document.createElement("div");
+//   starterName.innerHTML = text;
+//   starterName.classList.add(".pokemon-name");
+//   starterContainer.append(starterName);
+// }
 
 //GRASS
 const grassBtn = document.querySelector("#grassBtn");
@@ -124,8 +142,12 @@ async function waterPokemon() {
 }
 
 //REMOVE
+// function removePokemon() {
+//   while (starterContainer.lastChild) {
+//     starterContainer.removeChild(starterContainer.lastChild)
+//   }
+// }
+
 function removePokemon() {
-  while (starterContainer.lastChild) {
-    starterContainer.removeChild(starterContainer.lastChild)
-  }
+  starterContainer.innerHTML = "";
 }
