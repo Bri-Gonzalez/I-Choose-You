@@ -59,6 +59,30 @@ function appendAttack(text) {
   pokemonStats.append(p);
 }
 
+function appendDefense(text) {
+  let p = document.createElement("p");
+  p.innerText = `Defense: ${text}`;
+  pokemonStats.append(p);
+}
+
+function appendSpAtk(text) {
+  let p = document.createElement("p");
+  p.innerText = `Sp. Atk: ${text}`;
+  pokemonStats.append(p);
+}
+
+function appendSpDef(text) {
+  let p = document.createElement("p");
+  p.innerText = `Sp. Def: ${text}`;
+  pokemonStats.append(p);
+}
+
+function appendSpeed(text) {
+  let p = document.createElement("p");
+  p.innerText = `Speed: ${text}`;
+  pokemonStats.append(p);
+}
+
 const button = document.querySelector("#search");
 button.addEventListener("click", () => {
   removePokemon();
@@ -79,6 +103,10 @@ async function pokemonInfo() {
     appendWeight(res.data.weight);
     appendHP(res.data.stats[0].base_stat);
     appendAttack(res.data.stats[1].base_stat);
+    appendDefense(res.data.stats[2].base_stat);
+    appendSpAtk(res.data.stats[3].base_stat);
+    appendSpDef(res.data.stats[4].base_stat);
+    appendSpeed(res.data.stats[5].base_stat);
     // appendTypes(res.data.types[1].type.name);
 
   } catch (error) {
