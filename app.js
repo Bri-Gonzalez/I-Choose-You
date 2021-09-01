@@ -38,6 +38,7 @@ async function grassPokemon() {
     let res = await axios.get(`${URL}${randomPokemonID}`);
 
     appendImg(res.data.sprites.front_default);
+    // appendImg(res.data.sprites.back_default);
     appendName(res.data.name);
 
   } catch (error) {

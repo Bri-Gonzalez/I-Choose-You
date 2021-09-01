@@ -46,30 +46,20 @@ p {
 
 .button img:hover {
   animation: shake 0.9s;
-  /* animation-iteration-count: 1.5; */
   animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-  /* 0% { transform: translate(1px, 2px) rotate(0deg); }
-  10% { transform: translate(-1px, -3px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(-1px, -2px) rotate(0deg); }
-  40% { transform: translate(0px, 3px) rotate(1deg); }
-  50% { transform: translate(-1px, -2px) rotate(-1deg); }
-  60% { transform: translate(1px, 2px) rotate(0deg); }
-  70% { transform: translate(-1px, -2px) rotate(-1deg); }
-  80% { transform: translate(-3px, 0px) rotate(1deg); }
-  90% { transform: translate(-1px, -2px) rotate(0deg); }
-  100% { transform: translate(0px, 3px) rotate(-1deg); } */
-
   0% { transform: translate(0px, 0px) rotate(0deg); }
   20% { transform: translate(-10px, 0px) rotate(-20deg); }
   30% { transform: translate(10px, 0px) rotate(20deg); }
   50% { transform: translate(-10px, 0px) rotate(-10deg); }
-  60% { transform: translate(10px, 0px) rotate(10deg); } */
-  /* 80% { transform: translate()} */
-  100% { transform: translate(0px, 0px) rotate(0deg); } */
+  60% { transform: translate(10px, 0px) rotate(10deg); } 
+  100% { transform: translate(0px, 0px) rotate(0deg); } 
+}
+
+.button img:active {
+  transform: 
 }
 
 .button img {
@@ -85,25 +75,27 @@ p {
 .starter-container {
   margin: 35px auto;
   width: 200px;
-  height: 170px;
+  height: 250px;
   border-color: #FF4E4A;
   border-style: solid;
   border-width: 15px;
   border-radius: 20px;
-  display: flex;
+  display: flex; 
+  /* flex-wrap: wrap; */
   flex-direction: column;
   justify-content: center;
-}
-
-.starter-container img {
-  width: 100px;
-  height: 100px;
 }
 
 .starter-container h3 {
   font-family: "boogaloo", sans-serif;
   font-size: 30px;
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
+  text-transform: capitalize;
+}
+
+.starter-container img {
+  height: 130px;
+  width: 130px;
 }
 
 /* footer {

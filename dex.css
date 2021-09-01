@@ -1,0 +1,15 @@
+.pokedex-container {
+  background-color: #FF4E4A;
+  width: 650px;
+  height: 400px;
+}
+
+div {
+  min-height: 50px;
+  min-width: 50px;
+  border: 1px solid black;
+}
+
+.inline-block {
+  display: inline-block;
+}
