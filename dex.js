@@ -128,7 +128,7 @@ async function pokemonSearch() {
 }
 
 //BUTTON SEARCH FUNCTION
-// const btn2 = document.querySelector(".btn2");
+const btn2 = document.querySelector(".btn2");
 // btn2.addEventListener("click", () => {
 //   removePokemon()
 //   pokemonClickRight()
