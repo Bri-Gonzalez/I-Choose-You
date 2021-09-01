@@ -4,16 +4,13 @@
 
 .pokedex-container {
   background-color: #FF4E4A;
-  width: 650px;
-  height: 400px;
-}
-
-div {
-  border: 1px solid black;
+  width: 670px;
+  height: 320px;
+  border-radius: 20px;
+  margin: auto;
 }
 
 .inline-block {
-  /* display: inline-block; */
   width: 300px;
   vertical-align: top;
   display: inline-flex;
@@ -26,6 +23,7 @@ div {
   height: 40px;
   background-color: #DDFCFF;
   border-color: black;
+  border-style: solid;
   border-width: 2px;
   border-radius: 15px;
   margin: 2.5px auto;
@@ -40,6 +38,7 @@ div {
   height: 80px;
   background-color: #DDFCFF;
   border-color: black;
+  border-style: solid;
   border-width: 2px;
   border-radius: 15px;
   margin: 2.5px auto;
@@ -53,10 +52,135 @@ div {
   height: 25px;
   background-color: #DDFCFF;
   border-color: black;
+  border-style: solid;
   border-width: 2px;
   border-radius: 15px;
   margin: 2.5px auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.search-pokemon {
+  width: 280px;
+  height: 25px;
+  background-color: #DDFCFF;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  margin: 2.5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 200px;
+  border-radius: 15px;
+  border: 0;
+  background-color: #DDFCFF;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.triangle-btn {
+  display: inline-flex;
+  margin: 10px 20px 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  color: black;
+  border: 35px solid black;
+  border-top-color: transparent;
+  border-right-color: black;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  margin: 0px 20px 0px 0px;
+}
+
+.btn2 {
+  color: black;
+  border: 35px solid black;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: black;
+  margin: 0px 0px 0px 20px;
+}
+
+#right-container {
+  width: 280px;
+  background-color: #DDFCFF;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  margin: 12px 20px 12px 20px;
+}
+
+.type {
+  width: 280px;
+  height: 50px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 2.5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.type h3 {
+  background-color: rgb(238, 237, 237);
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.height-weight {
+  width: 280px;
+  height: 70px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 2.5px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.height {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weight {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats {
+  width: 260px;
+  height: 115px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 2.5px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px
+}
+
+.stats p{
+  margin: 1px 0px 0px 20px;
+  text-align: left;
 }

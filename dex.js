@@ -86,16 +86,19 @@ function appendSpeed(text) {
 const button = document.querySelector("#search");
 button.addEventListener("click", () => {
   removePokemon();
-  pokemonInfo();
+  pokemonSearch();
 })
 
-async function pokemonInfo() {
+//SEARCH FUNCTION
+
+async function pokemonSearch() {
   let search = input.value;
 
   try {
     let res = await axios.get(`${URL}${search}`);
 
     appendImg(res.data.sprites.front_default);
+    appendImg(res.data.sprites.back_default);
     appendName(res.data.name);
     appendID(res.data.id);
     appendTypes(res.data.types[0].type.name);
@@ -109,11 +112,47 @@ async function pokemonInfo() {
     appendSpeed(res.data.stats[5].base_stat);
     // appendTypes(res.data.types[1].type.name);
 
+    // let backImg = res.data.sprites.back_default;
+    // if (backImg === true) {
+    //   return appendImg(backImg);
+    // }
+
+    // if (res.data.types[1].type.name === true) {
+    //   return res.data.types[1].type.name
+    // }
+
+
   } catch (error) {
     console.log(error);
   }
 }
 
+//BUTTON SEARCH FUNCTION
+// const btn2 = document.querySelector(".btn2");
+// btn2.addEventListener("click", () => {
+//   removePokemon()
+//   pokemonClickRight()
+// })
+
+// async function pokemonClickRight() {
+//   let currentPokemon = input.value;
+
+//   try {
+//     let res = await axios.get(`${URL}${pokemon}`);
+
+//     let pokemon = [];
+//     for (i = 0; i < pokemon.length; i++) {
+//       let currentPokemon = input.value[i]
+//     }
+
+//     // appendName(res.data.name);
+
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+
+//REMOVE LAST SEARCH
 function removePokemon() {
   pokemonImg.innerHTML = "";
   pokemonName.innerHTML = "";
