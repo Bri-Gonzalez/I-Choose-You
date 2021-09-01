@@ -1,7 +1,6 @@
 const URL = "https://pokeapi.co/api/v2/pokemon/";
-const typeURL = "https://pokeapi.co/api/v2/type/";
 const input = document.querySelector("input");
-const pokedexContainer = document.querySelector(".pokedex-container");
+// const pokedexContainer = document.querySelector(".pokedex-container");
 const pokemonName = document.querySelector(".pokemon-name");
 const pokemonImg = document.querySelector(".pokemon-img");
 const pokemonID = document.querySelector(".id");
@@ -90,15 +89,36 @@ button.addEventListener("click", () => {
 })
 
 //SEARCH FUNCTION
-
 async function pokemonSearch() {
   let search = input.value;
 
   try {
     let res = await axios.get(`${URL}${search}`);
 
+    const leftBtn = document.querySelector("#left-btn");
+    leftBtn.addEventListener("click", () => {
+      let currentPokemonId = document.querySelector(".id")
+      let previousId = currentPokemonId.innerText.split("#")[1]
+      if (previousId > 1) {
+        removePokemon();
+      }
+      pokemonClickLeft(previousId);
+    })
+
+    const rightBtn = document.querySelector("#right-btn");
+    rightBtn.addEventListener("click", () => {
+      let currentPokemonId = document.querySelector(".id")
+      let previousId = currentPokemonId.innerText.split("#")[1]
+      if (previousId < 898) {
+        removePokemon();
+      }
+      pokemonClickRight(previousId);
+    })
+
     appendImg(res.data.sprites.front_default);
-    appendImg(res.data.sprites.back_default);
+    if (res.data.sprites.back_default) {
+      appendImg(res.data.sprites.back_default);
+    }
     appendName(res.data.name);
     appendID(res.data.id);
     appendTypes(res.data.types[0].type.name);
@@ -110,17 +130,9 @@ async function pokemonSearch() {
     appendSpAtk(res.data.stats[3].base_stat);
     appendSpDef(res.data.stats[4].base_stat);
     appendSpeed(res.data.stats[5].base_stat);
-    // appendTypes(res.data.types[1].type.name);
-
-    // let backImg = res.data.sprites.back_default;
-    // if (backImg === true) {
-    //   return appendImg(backImg);
-    // }
-
-    // if (res.data.types[1].type.name === true) {
-    //   return res.data.types[1].type.name
-    // }
-
+    if (res.data.types[1]) {
+      appendTypes(res.data.types[1].type.name);
+    }
 
   } catch (error) {
     console.log(error);
@@ -128,29 +140,64 @@ async function pokemonSearch() {
 }
 
 //BUTTON SEARCH FUNCTION
-const btn2 = document.querySelector(".btn2");
-// btn2.addEventListener("click", () => {
-//   removePokemon()
-//   pokemonClickRight()
-// })
 
-// async function pokemonClickRight() {
-//   let currentPokemon = input.value;
+async function pokemonClickRight(pokeID) {
 
-//   try {
-//     let res = await axios.get(`${URL}${pokemon}`);
+  try {
+    let res = await axios.get(`${URL}${parseInt(pokeID) + 1}`);
 
-//     let pokemon = [];
-//     for (i = 0; i < pokemon.length; i++) {
-//       let currentPokemon = input.value[i]
-//     }
+    appendImg(res.data.sprites.front_default);
+    if (res.data.sprites.back_default) {
+      appendImg(res.data.sprites.back_default);
+    }
+    appendName(res.data.name);
+    appendID(res.data.id);
+    appendTypes(res.data.types[0].type.name);
+    appendHeight(res.data.height);
+    appendWeight(res.data.weight);
+    appendHP(res.data.stats[0].base_stat);
+    appendAttack(res.data.stats[1].base_stat);
+    appendDefense(res.data.stats[2].base_stat);
+    appendSpAtk(res.data.stats[3].base_stat);
+    appendSpDef(res.data.stats[4].base_stat);
+    appendSpeed(res.data.stats[5].base_stat);
+    if (res.data.types[1]) {
+      appendTypes(res.data.types[1].type.name);
+    }
 
-//     // appendName(res.data.name);
+  } catch (error) {
+    console.log(error);
+  }
+}
 
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
+async function pokemonClickLeft(pokeID) {
+
+  try {
+    let res = await axios.get(`${URL}${parseInt(pokeID) - 1}`);
+
+    appendImg(res.data.sprites.front_default);
+    if (res.data.sprites.back_default) {
+      appendImg(res.data.sprites.back_default);
+    }
+    appendName(res.data.name);
+    appendID(res.data.id);
+    appendTypes(res.data.types[0].type.name);
+    appendHeight(res.data.height);
+    appendWeight(res.data.weight);
+    appendHP(res.data.stats[0].base_stat);
+    appendAttack(res.data.stats[1].base_stat);
+    appendDefense(res.data.stats[2].base_stat);
+    appendSpAtk(res.data.stats[3].base_stat);
+    appendSpDef(res.data.stats[4].base_stat);
+    appendSpeed(res.data.stats[5].base_stat);
+    if (res.data.types[1]) {
+      appendTypes(res.data.types[1].type.name);
+    }
+
+  } catch (error) {
+    console.log(error);
+  }
+}
 
 //REMOVE LAST SEARCH
 function removePokemon() {

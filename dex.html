@@ -8,10 +8,16 @@
   <link rel="stylesheet" href="./dex.css" />
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script defer src="./dex.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Itim&family=Nunito&display=swap"
+    rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
+  <header></header>
+  <div>
+    <h1>PokeSearch</h1>
+  </div>
   <div class="pokedex-container">
     <div class="inline-block" id="left-container">
       <div class="pokemon-name"></div>
@@ -21,9 +27,11 @@
         <input type="text" id="blank" placeholder="Pokemon Name">
         <button id="search">search</button>
       </div>
-      <div class="triangle-btn">
-        <div class="btn1"></div>
-        <div class="btn2"></div>
+      <div class="btn-container">
+        <div id="square-btn1"></div>
+        <div id="left-btn"></div>
+        <div id="right-btn"></div>
+        <div id="square-btn2"></div>
       </div>
     </div>
     <div class="inline-block" id="right-container">

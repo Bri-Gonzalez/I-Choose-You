@@ -1,0 +1,30 @@
+* {
+  text-align: center;
+}
+
+header {
+  background-color: #FF4E4A;
+  height: 35px;
+}
+
+h1 {
+  background-color: #FF4E4A;
+  color: white;
+  width: 350px;
+  margin: 30px auto;
+  border-radius: 20px;
+  font-family: "itim", sans-serif;
+  font-size: 45px;
+}
+
+.home-container {
+  width: 600px;
+  margin: auto;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.inline-button {
+  display: inline-flex;
+}

@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+header {
+  background-color: #FF4E4A;
+  height: 35px;
+}
+
+h1 {
+  background-color: #FF4E4A;
+  color: white;
+  width: 350px;
+  margin: 30px auto;
+  border-radius: 20px;
+  font-family: "itim", sans-serif;
+  font-size: 45px;
+}
+
 .pokedex-container {
   background-color: #FF4E4A;
   width: 670px;
@@ -35,7 +50,7 @@
 
 .pokemon-img {
   width: 280px;
-  height: 80px;
+  height: 110px;
   background-color: #DDFCFF;
   border-color: black;
   border-style: solid;
@@ -88,17 +103,24 @@ button {
   border-radius: 15px;
 }
 
-.triangle-btn {
+.btn-container {
   display: inline-flex;
-  margin: 10px 20px 20px 10px;
+  margin: 5px 20px 5px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.btn1 {
+#square-btn1 {
+  background-color: black;
+  height: 15px;
+  width: 20px;
+  border-radius: 15px;
+}
+
+#left-btn {
   color: black;
-  border: 35px solid black;
+  border: 25px solid black;
   border-top-color: transparent;
   border-right-color: black;
   border-bottom-color: transparent;
@@ -106,14 +128,21 @@ button {
   margin: 0px 20px 0px 0px;
 }
 
-.btn2 {
+#right-btn {
   color: black;
-  border: 35px solid black;
+  border: 25px solid black;
   border-top-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: black;
   margin: 0px 0px 0px 20px;
+}
+
+#square-btn2 {
+  background-color: black;
+  height: 15px;
+  width: 20px;
+  border-radius: 15px;
 }
 
 #right-container {
