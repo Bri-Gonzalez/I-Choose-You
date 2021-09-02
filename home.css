@@ -22,7 +22,7 @@ h2 {
   font-family: "boogaloo", sans-serif;
   font-size: 30px;
   margin: 5px 0px 25px 0px;
-  text-shadow: 2px 2px #FEF8D9;
+  /* text-shadow: 2px 2px #FEF8D9; */
 }
 
 .home-container {
@@ -119,4 +119,47 @@ h2 {
   width: 175px;
   height: 175px;
   background-color: #FEF8D9;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-container {
+    width: 350px;
+    height: 485px;
+  }
+  
+  .inline-button {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #FEF8D9;
+  }
+
+  #i-choose-you {
+    margin: 25px auto;
+  }
+
+  #pokeresearch {
+    margin: 25px auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .home-container {
+    width: 265px;
+    height: 485px;
+  }
+
+  h1 {
+    width: 265px;
+    font-size: 40px;
+  }
+
+  #i-choose-you {
+    margin: 25px auto;
+  }
+
+  #pokeresearch {
+    margin: 25px auto;
+  }
 }
