@@ -1,5 +1,6 @@
 * {
   text-align: center;
+  background-color: #C4EFFF;
 }
 
 header {
@@ -21,22 +22,27 @@ h2 {
   font-family: "boogaloo", sans-serif;
   font-size: 30px;
   margin: 5px 0px 25px 0px;
+  text-shadow: 2px 2px #FEF8D9;
 }
 
 .home-container {
   width: 600px;
+  height: 400px;
+  border-radius: 20px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #FEF8D9;
 }
 
 .inline-button {
   display: inline-flex;
+  background-color: #FEF8D9;
 }
 
 #i-choose-you {
-  background-color: #FF4E4A;
+  background-color: #197092;
   width: 200px;
   height: 200px;
   border-radius: 20px;
@@ -53,23 +59,26 @@ h2 {
 
 #i-choose-you h3{
   font-family: "boogaloo", sans-serif;
+  background-color: #FEF8D9;
 }
 
 #i-choose-you img {
   width: 160px;
+  background-color: #FEF8D9;
 }
 
 .outline {
   border-width: 5px;
-  border-color: khaki;
+  border-color: #FF4E4A;
   border-style: solid;
   border-radius: 20px;
+  background-color: #FEF8D9;
   width: 175px;
   height: 175px;
 }
 
 #pokeresearch {
-  background-color: #FF4E4A;
+  background-color: #18BCA2;
   width: 200px;
   height: 200px;
   border-radius: 20px;
@@ -86,17 +95,28 @@ h2 {
 
 #pokeresearch h3 {
   font-family: "boogaloo", sans-serif;
+  background-color: #FEF8D9;
 }
 
 #pokeresearch img {
   height: 95px;
+  background-color: transparent;
+  margin: auto;
+}
+
+.circle {
+  background-color: #FF4E4A;
+  border-radius: 50%;
+  width: 100px;
+  margin: auto;
 }
 
 .outline2 {
   border-width: 5px;
-  border-color: #C3F3FF;
+  border-color: #197092;
   border-style: solid;
   border-radius: 20px;
   width: 175px;
   height: 175px;
+  background-color: #FEF8D9;
 }

@@ -95,12 +95,6 @@ async function waterPokemon() {
 }
 
 //REMOVE
-// function removePokemon() {
-//   while (starterContainer.lastChild) {
-//     starterContainer.removeChild(starterContainer.lastChild)
-//   }
-// }
-
 function removePokemon() {
   starterContainer.innerHTML = "";
 }

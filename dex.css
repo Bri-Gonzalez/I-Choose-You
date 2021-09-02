@@ -1,10 +1,27 @@
 * {
   text-align: center;
+  background-color: #FEF8D9;
 }
 
-header {
+.topnav {
   background-color: #FF4E4A;
   height: 35px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.link {
+  background-color: #FF4E4A;
+  float: right;
+  color: white;
+  font-family: "itim", sans-serif;
+  margin: 0 15px 0 15px;
+  font-size: 17px;
+}
+
+.link:hover {
+  color: #FFD4D4;
 }
 
 h1 {
@@ -31,6 +48,7 @@ h1 {
   display: inline-flex;
   flex-direction: column;
   padding: 10px;
+  background-color: transparent;
 }
 
 .pokemon-name {
@@ -48,6 +66,10 @@ h1 {
   text-transform: capitalize;
 }
 
+.pokemon-name h3{
+  background-color: #DDFCFF;
+}
+
 .pokemon-img {
   width: 280px;
   height: 110px;
@@ -62,6 +84,10 @@ h1 {
   align-items: center;
 }
 
+.pokemon-img img {
+  background-color: #DDFCFF;
+}
+
 .id {
   width: 280px;
   height: 25px;
@@ -74,6 +100,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.id h3 {
+  background-color: #DDFCFF;
 }
 
 .search-pokemon {
@@ -109,6 +139,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #FF4E4A;
 }
 
 #square-btn1 {
@@ -126,6 +157,7 @@ button {
   border-bottom-color: transparent;
   border-left-color: transparent;
   margin: 0px 20px 0px 0px;
+  background-color: #FF4E4A;
 }
 
 #right-btn {
@@ -136,6 +168,7 @@ button {
   border-bottom-color: transparent;
   border-left-color: black;
   margin: 0px 0px 0px 20px;
+  background-color: #FF4E4A;
 }
 
 #square-btn2 {
@@ -189,6 +222,11 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+}
+
+.height p, b {
+  background-color: white;
 }
 
 .weight {
@@ -196,6 +234,11 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+}
+
+.weight p, b {
+  background-color: white;
 }
 
 .stats {
@@ -209,9 +252,10 @@ button {
   padding: 10px
 }
 
-.stats p{
+.stats p, b {
   margin: 1px 0px 0px 20px;
   text-align: left;
+  background-color: white;
 }
 
 @media only screen and (max-width: 600px) {

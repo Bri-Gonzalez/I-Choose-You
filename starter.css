@@ -1,6 +1,7 @@
 * {
   text-align: center;
-  /* align-content: center; */
+  background-color: #FEF8D9;
+  /* color: white; */
 }
 
 header {
@@ -83,6 +84,7 @@ p {
   display: flex; 
   flex-direction: column;
   justify-content: center;
+  background-color: #DDFCFF;
 }
 
 .starter-container h3 {
@@ -90,17 +92,20 @@ p {
   font-size: 30px;
   margin: 0 0 30px 0;
   text-transform: capitalize;
+  background-color: #DDFCFF;
+  color: black
+}
+
+.starter-container div {
+  background-color: #DDFCFF;
 }
 
 .starter-container img {
   height: 130px;
   width: 130px;
+  background-color: #DDFCFF;
 }
 
-/* footer {
-  background-color: #FF4E4A;
-  height: 35px;
-} */
 
 @media only screen and (max-width: 600px) {
   h1 {
