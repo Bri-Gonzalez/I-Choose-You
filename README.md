@@ -173,21 +173,24 @@ The user will select one of 3 Poké Balls. The Poké Balls will be labeled by el
 
 #### PostMVP  
 
-- Add a "Catch Pokémon" page:
+- Add a "PokéResearch" page:
 
-   * User will click a button to get back randomly generated Pokémon with the Pokémon's name and sprite 
-   * User will be able to decide whether to "catch" the Pokémon or "set it free"
-   * Save the caught Pokémon
+   * Build a Pokédex
+   * Allow user to search for a specific Pokémon and get back that Pokémon's data (name, picture, ID, type, height, weight, and base stats)
+   * After user has searched a Pokémon, allow user to click left or right button to view the next Pokémon or previous based on index number
+   * User will be able to favorite and save Pokémon
+   
+- Add a "Home" page where user can go to the "I Choose You" page or the "PokéResearch" page
 
 ## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
 |August 27 - 29| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|August 30| Project Approval/ Core Application Structure (HTML, CSS, JS) | Incomplete
-|August 31| Pseudocode / Actual Code | Incomplete
-|September 1| CSS Styling | Incomplete
-|September 2| Complete MVP | Incomplete
+|August 30| Project Approval/ Core Application Structure (HTML, CSS, JS) | Complete
+|August 31| Pseudocode / Actual Code | Complete
+|September 1| CSS Styling | Complete
+|September 2| Complete MVP | Complete
 |Septmeber 3| Presentations | Incomplete 
 
 ## Priority Matrix
@@ -199,20 +202,22 @@ The user will select one of 3 Poké Balls. The Poké Balls will be labeled by el
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Basic HTML Structure | H | 2hrs | 1hr | 1hr |
-| CSS Classes & IDs | H | 2hrs | 1hr | 1hr |
+| CSS Classes & IDs | H | 1hr | 1hr | 1hr |
 | Setting Variables/Query Selecting/Adding Event Listeners | H | 2hrs | 2hr | 2hr |
-| Logic for randomizing data from API  | H | 5hrs | 3hr | 3hr |
-| Getting specific data from API and then randomizing it | H | 5hrs| 5hr | 5hr |
-| Appending Variables to Page | H | 2hrs | - | - |
-| Building HTML components | H | 3hrs | - | - |
-| CSS Style Header and Instructions | M | 4hrs | - | - |
-| CSS Style Buttons | M | 4hrs| - | - |
-| CSS Create Pokémon Container | H | 2hrs | - | - |
-| CSS Style Pokémon Container Components | M | 3hrs | - | - |
-| CSS Style Background | L | 4hrs | - | - |
-| CSS Style Fonts/Colors | L | 3hrs | - | - |
-| Media Query App | H | 4hrs | - | - |
-| Total |  | 45hrs | - | - |
+| Logic for randomizing data from API  | H | 4hrs | 3hrs | 3hrs |
+| Getting specific data from API and then randomizing it | H | 5hrs| 4hrs | 4hrs |
+| Appending Variables to Page | H | 1hr | 1hr | 1hr |
+| Removing Old to Append New Output | H | 3hrs | 4hrs | 4hrs |
+| Complete HTML | H | 2hrs | 2hrs | 2hrs |
+| CSS Style Header and Instructions | M | 3hrs | 2hrs | 2hrs |
+| CSS Style Buttons | M | 3hrs| 2hrs | 2hrs |
+| CSS Animate Buttons | L | 3hrs | 4hrs | 4hrs |
+| CSS Create Pokémon Container | H | 2hrs | 1hr | 1hr |
+| CSS Style Pokémon Container Components | M | 3hrs | 4hrs | 4hrs |
+| CSS Style Background | L | 2hrs | 1hr | 1hr |
+| CSS Style Fonts/Colors | L | 2hrs | 2hrs | 2hrs |
+| Media Query App | H | 2hrs | 2hrs | 2hrs |
+| Total |  | 40hrs | 36hrs | 36hrs |
 
 ## Code Snippet
 

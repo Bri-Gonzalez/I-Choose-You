@@ -17,34 +17,86 @@ h1 {
   font-size: 45px;
 }
 
+h2 {
+  font-family: "boogaloo", sans-serif;
+  font-size: 30px;
+  margin: 5px 0px 25px 0px;
+}
+
 .home-container {
   width: 600px;
   margin: auto;
-  border-color: black;
-  border-style: solid;
-  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inline-button {
   display: inline-flex;
 }
 
-.i-choose-you {
+#i-choose-you {
   background-color: #FF4E4A;
   width: 200px;
   height: 200px;
   border-radius: 20px;
   margin: 0px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
-.i-choose-you img {
-  height: 100px;
+#i-choose-you:hover {
+  background-color: #ff8280;
 }
 
-.pokesearch {
+#i-choose-you h3{
+  font-family: "boogaloo", sans-serif;
+}
+
+#i-choose-you img {
+  width: 160px;
+}
+
+.outline {
+  border-width: 5px;
+  border-color: khaki;
+  border-style: solid;
+  border-radius: 20px;
+  width: 175px;
+  height: 175px;
+}
+
+#pokeresearch {
   background-color: #FF4E4A;
   width: 200px;
   height: 200px;
   border-radius: 20px;
   margin: 0px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#pokeresearch:hover {
+  background-color: #ff8280;
+}
+
+#pokeresearch h3 {
+  font-family: "boogaloo", sans-serif;
+}
+
+#pokeresearch img {
+  height: 95px;
+}
+
+.outline2 {
+  border-width: 5px;
+  border-color: #C3F3FF;
+  border-style: solid;
+  border-radius: 20px;
+  width: 175px;
+  height: 175px;
 }
