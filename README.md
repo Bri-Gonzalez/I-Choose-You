@@ -221,12 +221,12 @@ The user will select one of 3 Poké Balls. The Poké Balls will be labeled by el
 
 ## Code Snippet
 
-This code takes specific Pokémon IDs, randomizes them by index, and then assigns the random index back to a Pokémon ID within the fireType array. This piece of code allows me to grab a random Pokémon of a specific type. I wouldn't have been able to do this straight from the API.  
+This code takes specific Pokémon IDs, randomizes them by index, and then assigns the random index number back to a Pokémon ID within the grassType array. 
 
 ```
-let fireType = [4, 25, 37, 58, 77, 126];
-  let randomFire = Math.floor(Math.random() * fireType.length);
-  let randomPokemonID = fireType[randomFire];
+let grassType = [810, 495, 650, 722, 387, 152, 252, 1];
+  let randomGrass = Math.floor(Math.random() * grassType.length);
+  let randomPokemonID = grassType[randomGrass];
 ```
 
 ## Change Log

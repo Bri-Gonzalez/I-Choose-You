@@ -1,6 +1,6 @@
 * {
   text-align: center;
-  background-color: #C4EFFF;
+  background-color: #C3F3FF;
 }
 
 header {
@@ -33,12 +33,12 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FEF8D9;
+  background-color: #FFEA7B;
 }
 
 .inline-button {
   display: inline-flex;
-  background-color: #FEF8D9;
+  background-color: #FFEA7B;
 }
 
 #i-choose-you {
@@ -59,12 +59,12 @@ h2 {
 
 #i-choose-you h3{
   font-family: "boogaloo", sans-serif;
-  background-color: #FEF8D9;
+  background-color: #fef5e1;
 }
 
 #i-choose-you img {
   width: 160px;
-  background-color: #FEF8D9;
+  background-color: #fef5e1;
 }
 
 .outline {
@@ -72,7 +72,7 @@ h2 {
   border-color: #FF4E4A;
   border-style: solid;
   border-radius: 20px;
-  background-color: #FEF8D9;
+  background-color: #fef5e1;
   width: 175px;
   height: 175px;
 }
@@ -95,7 +95,7 @@ h2 {
 
 #pokeresearch h3 {
   font-family: "boogaloo", sans-serif;
-  background-color: #FEF8D9;
+  background-color: #fef5e1;
 }
 
 #pokeresearch img {
@@ -118,7 +118,7 @@ h2 {
   border-radius: 20px;
   width: 175px;
   height: 175px;
-  background-color: #FEF8D9;
+  background-color: #fef5e1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -132,7 +132,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-color: #FEF8D9;
+    background-color: #fef5e1;
   }
 
   #i-choose-you {

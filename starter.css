@@ -1,7 +1,6 @@
 * {
   text-align: center;
-  background-color: #FEF8D9;
-  /* color: white; */
+  background-color: #fef5e1;
 }
 
 .topnav {
@@ -101,7 +100,7 @@ p {
   display: flex; 
   flex-direction: column;
   justify-content: center;
-  /* background-color: #DDFCFF; */
+  /* background-color: #faea97; */
 }
 
 .starter-container h3 {
@@ -109,18 +108,18 @@ p {
   font-size: 30px;
   margin: 0 0 30px 0;
   text-transform: capitalize;
-  /* background-color: #DDFCFF; */
+  /* background-color: #faea97; */
   color: black
 }
 
 .starter-container div {
-  /* background-color: #DDFCFF; */
+  /* background-color: #faea97; */
 }
 
 .starter-container img {
   height: 130px;
   width: 130px;
-  /* background-color: #DDFCFF; */
+  /* background-color: #faea97; */
 }
 
 
