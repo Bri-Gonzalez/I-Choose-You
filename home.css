@@ -28,3 +28,23 @@ h1 {
 .inline-button {
   display: inline-flex;
 }
+
+.i-choose-you {
+  background-color: #FF4E4A;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 0px 10px 0px 0px;
+}
+
+.i-choose-you img {
+  height: 100px;
+}
+
+.pokesearch {
+  background-color: #FF4E4A;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 0px 0px 0px 10px;
+}

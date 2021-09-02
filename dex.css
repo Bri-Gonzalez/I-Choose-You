@@ -213,3 +213,99 @@ button {
   margin: 1px 0px 0px 20px;
   text-align: left;
 }
+
+@media only screen and (max-width: 600px) {
+  .inline-block {
+    display: flex;
+  }
+
+  .pokedex-container {
+    background-color: #FF4E4A;
+    width: 330px;
+    height: 660px;
+  }
+
+  #right-container {
+    display: flex;
+    margin: auto;
+    width: 280px;
+  }
+
+  #left-container {
+    display: flex;
+    margin: auto;
+    width: 280px;
+  }
+
+  .btn-container {
+    margin: 30px 0 20px 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  
+  h1 {
+    width: 265px;
+    font-size: 30px;
+  }
+  
+  .inline-block {
+    display: flex;
+  }
+
+  .pokedex-container {
+    background-color: #FF4E4A;
+    width: 265px;
+    height: 660px;
+  }
+
+  #left-container {
+    display: flex;
+    margin: auto;
+    width: 250px;
+  }
+
+  .pokemon-name {
+    width: 220px;
+  }
+
+  .pokemon-img {
+    width: 220px;
+  }
+
+  .id {
+    width: 220px;
+  }
+
+  .search-pokemon {
+    width: 220px;
+  }
+
+  #right-container {
+    display: flex;
+    margin: auto;
+    width: 220px;
+  }
+
+  .btn-container {
+    margin: 30px 0 20px 0;
+  }
+
+  input {
+    width: 135px;
+  }
+
+.type {
+  width: 200px;
+}
+
+.height-weight {
+  width: 200px;
+}
+
+.stats {
+  width: 200px;
+  padding: 8px 0 8px 0;
+}
+
+}

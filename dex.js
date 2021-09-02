@@ -36,49 +36,49 @@ function appendTypes(text) {
 
 function appendHeight(text) {
   let p = document.createElement("p");
-  p.innerText = `Height: ${text}`;
+  p.innerHTML = `<b>Height:</b> ${text} dm`;
   pokemonHeight.append(p);
 }
 
 function appendWeight(text) {
   let p = document.createElement("p");
-  p.innerText = `Weight: ${text}`;
+  p.innerHTML = `<b>Weight:</b> ${text} hg`;
   pokemonWeight.append(p);
 }
 
 function appendHP(text) {
   let p = document.createElement("p");
-  p.innerText = `HP: ${text}`;
+  p.innerHTML = `<b>HP:</b> ${text}`;
   pokemonStats.append(p);
 }
 
 function appendAttack(text) {
   let p = document.createElement("p");
-  p.innerText = `Attack: ${text}`;
+  p.innerHTML = `<b>Attack:</b> ${text}`;
   pokemonStats.append(p);
 }
 
 function appendDefense(text) {
   let p = document.createElement("p");
-  p.innerText = `Defense: ${text}`;
+  p.innerHTML = `<b>Defense:</b> ${text}`;
   pokemonStats.append(p);
 }
 
 function appendSpAtk(text) {
   let p = document.createElement("p");
-  p.innerText = `Sp. Atk: ${text}`;
+  p.innerHTML = `<b>Sp. Atk:</b> ${text}`;
   pokemonStats.append(p);
 }
 
 function appendSpDef(text) {
   let p = document.createElement("p");
-  p.innerText = `Sp. Def: ${text}`;
+  p.innerHTML = `<b>Sp. Def:</b> ${text}`;
   pokemonStats.append(p);
 }
 
 function appendSpeed(text) {
   let p = document.createElement("p");
-  p.innerText = `Speed: ${text}`;
+  p.innerHTML = `<b>Speed: </b>${text}`;
   pokemonStats.append(p);
 }
 
