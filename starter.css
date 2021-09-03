@@ -113,6 +113,11 @@ p {
   width: 130px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .button img:hover {
+    animation-iteration-count: 1;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -126,6 +131,10 @@ p {
   .button img {
     width: 90px;
   }
+}
+
+.button img:hover {
+  animation-iteration-count: 1;
 }
 
 @media only screen and (max-width: 320px) {
@@ -144,5 +153,9 @@ p {
 
   .button img {
     width: 76px;
+  }
+
+  .button img:hover {
+    animation-iteration-count: 1;
   }
 }
