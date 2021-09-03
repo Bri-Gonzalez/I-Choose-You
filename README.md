@@ -214,10 +214,19 @@ The user will select one of 3 Poké Balls. The Poké Balls will be labeled by el
 | CSS Animate Buttons | L | 3hrs | 4hrs | 4hrs |
 | CSS Create Pokémon Container | H | 2hrs | 1hr | 1hr |
 | CSS Style Pokémon Container Components | M | 3hrs | 4hrs | 4hrs |
-| CSS Style Background | L | 2hrs | 1hr | 1hr |
-| CSS Style Fonts/Colors | L | 2hrs | 2hrs | 2hrs |
+| CSS Style Background | L | 2hrs | 3hr | 3hr |
+| CSS Style Fonts/Colors | L | 2hrs | 3hrs | 3hrs |
 | Media Query App | H | 2hrs | 2hrs | 2hrs |
-| Total |  | 40hrs | 36hrs | 36hrs |
+| Post MVP - Basic HTML & CSS for PokeDex | L | 1hrs | 1hr | 1hr |
+| Post MVP - Creating Search Function | L | 2hrs | 1hr | 1hr |
+| Post MVP - Appending Variables to Page | L | 2hrs | 2hr | 2hr |
+| Post MVP - CSS Style Pokedex | L | 2hrs | 1hr | 1hr |
+| Post MVP - CSS Style Pokedex Page | L | 2hrs | 2hr | 2hr |
+| Post MVP - Create Home Page | L | 30 min | 30min | 30min |
+| Post MVP - Link I Choose You and PokeSearch to Home Page | L | 30 min | 30min | 30min |
+| Post MVP - CSS Style Home Page | L | 1hr | 3hrs | 3hrs |
+| Post MVP - Create Links on I Choose You & PokeSearch | L | 1hr | 1hr | 1hr |
+| Total |  | 50hrs | 51hrs | 51hrs |
 
 ## Code Snippet
 
