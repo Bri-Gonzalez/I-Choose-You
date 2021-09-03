@@ -173,7 +173,7 @@ The user will select one of 3 Poké Balls. The Poké Balls will be labeled by el
 
 #### PostMVP  
 
-- Add a "PokéResearch" page:
+- Add a "PokéSearch" page:
 
    * Build a Pokédex
    * Allow user to search for a specific Pokémon and get back that Pokémon's data (name, picture, ID, type, height, weight, and base stats)
@@ -230,4 +230,4 @@ let grassType = [810, 495, 650, 722, 387, 152, 252, 1];
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+I decided to change the look of the pages. My original wireframe of I Choose You was white with red accents. Once I started the post MVP and made multiple webpages for this site, I felt that the red with white background was too plain and I wanted to create a color scheme that would be used throughout the website, yet make each page unique. 

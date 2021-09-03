@@ -1,11 +1,6 @@
 * {
   text-align: center;
-  /* background-color: #5fc6da; */
   background-color: #C4EFFF;
-  /* background-color: #5eeed6; */
-  /* background-color: #5ED2FF; */
-  /* background-color: #FFEA7B; */
-  /* background-color: #18BCA2; */
 }
 
 header {
@@ -37,16 +32,12 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #FFEA7B; */
-  /* background-color: #5ED2FF; */
-  background-color: #FF4E4A;
+  background-color: #FFEA7B;
 }
 
 .inline-button {
   display: inline-flex;
-  /* background-color: #FFEA7B; */
-  /* background-color: #5ED2FF; */
-  background-color: #FF4E4A;
+  background-color: #FFEA7B;
 }
 
 #i-choose-you {
@@ -77,8 +68,7 @@ h2 {
 
 .outline {
   border-width: 5px;
-  /* border-color: #FF4E4A; */
-  border-color: #FFCE1C;
+  border-color: #FF4E4A;
   border-style: solid;
   border-radius: 20px;
   background-color: #fef5e1;
