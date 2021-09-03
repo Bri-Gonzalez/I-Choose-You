@@ -89,7 +89,7 @@ button.addEventListener("click", () => {
 
 //SEARCH FUNCTION
 async function pokemonSearch() {
-  let search = input.value;
+  let search = input.value.toLowerCase();
 
   try {
     let res = await axios.get(`${URL}${search}`);
