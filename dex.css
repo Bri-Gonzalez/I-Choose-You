@@ -54,7 +54,7 @@ h1 {
 .pokemon-name {
   width: 280px;
   height: 40px;
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -67,13 +67,13 @@ h1 {
 }
 
 .pokemon-name h3{
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
 }
 
 .pokemon-img {
   width: 280px;
   height: 110px;
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -85,13 +85,13 @@ h1 {
 }
 
 .pokemon-img img {
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
 }
 
 .id {
   width: 280px;
   height: 25px;
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -103,13 +103,13 @@ h1 {
 }
 
 .id h3 {
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
 }
 
 .search-pokemon {
   width: 280px;
   height: 25px;
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
   border-color: black;
   border-style: solid;
   border-width: 2px;
@@ -124,7 +124,7 @@ input {
   width: 200px;
   border-radius: 15px;
   border: 0;
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
 }
 
 button {
@@ -180,7 +180,7 @@ button {
 
 #right-container {
   width: 280px;
-  background-color: #DDFCFF;
+  background-color: #fef5e1;
   border-color: black;
   border-style: solid;
   border-width: 2px;
