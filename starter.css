@@ -62,7 +62,6 @@ p {
 .button img:hover {
   animation: shake 0.9s;
   animation-iteration-count: infinite;
-  an
 }
 
 @keyframes shake {
@@ -91,7 +90,6 @@ p {
 .starter-container {
   margin: 35px auto;
   width: 205px;
-  /* height: 250px; */
   height: 205px;
   border-color: #FF4E4A;
   border-style: solid;
@@ -100,7 +98,6 @@ p {
   display: flex; 
   flex-direction: column;
   justify-content: center;
-  /* background-color: #faea97; */
 }
 
 .starter-container h3 {
@@ -108,18 +105,12 @@ p {
   font-size: 30px;
   margin: 0 0 30px 0;
   text-transform: capitalize;
-  /* background-color: #faea97; */
   color: black
-}
-
-.starter-container div {
-  /* background-color: #faea97; */
 }
 
 .starter-container img {
   height: 130px;
   width: 130px;
-  /* background-color: #faea97; */
 }
 
 
