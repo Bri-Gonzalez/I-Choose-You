@@ -40,6 +40,7 @@ h1 {
   height: 320px;
   border-radius: 20px;
   margin: auto;
+  box-shadow: 3px 5px 10px black;
 }
 
 .inline-block {
