@@ -4,7 +4,7 @@
 }
 
 .topnav {
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
   height: 35px;
   display: flex;
   justify-content: right;
@@ -12,7 +12,7 @@
 }
 
 .link {
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
   float: right;
   color: white;
   font-family: "itim", sans-serif;
@@ -21,11 +21,11 @@
 }
 
 .link:hover {
-  color: #FFD4D4;
+  color: #ffd4d4;
 }
 
 h1 {
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
   color: white;
   width: 350px;
   margin: 30px auto;
@@ -35,7 +35,7 @@ h1 {
 }
 
 .pokedex-container {
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
   width: 670px;
   height: 320px;
   border-radius: 20px;
@@ -67,7 +67,7 @@ h1 {
   text-transform: capitalize;
 }
 
-.pokemon-name h3{
+.pokemon-name h3 {
   background-color: #fef5e1;
 }
 
@@ -132,6 +132,7 @@ button {
   background-color: black;
   color: white;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .btn-container {
@@ -140,7 +141,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
 }
 
 #square-btn1 {
@@ -158,7 +159,8 @@ button {
   border-bottom-color: transparent;
   border-left-color: transparent;
   margin: 0px 20px 0px 0px;
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
+  cursor: pointer;
 }
 
 #right-btn {
@@ -169,7 +171,8 @@ button {
   border-bottom-color: transparent;
   border-left-color: black;
   margin: 0px 0px 0px 20px;
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
+  cursor: pointer;
 }
 
 #square-btn2 {
@@ -226,7 +229,8 @@ button {
   background-color: white;
 }
 
-.height p, b {
+.height p,
+b {
   background-color: white;
 }
 
@@ -238,7 +242,8 @@ button {
   background-color: white;
 }
 
-.weight p, b {
+.weight p,
+b {
   background-color: white;
 }
 
@@ -250,10 +255,11 @@ button {
   margin: 2.5px auto;
   display: flex;
   flex-direction: column;
-  padding: 10px
+  padding: 10px;
 }
 
-.stats p, b {
+.stats p,
+b {
   margin: 1px 0px 0px 20px;
   text-align: left;
   background-color: white;
@@ -265,7 +271,7 @@ button {
   }
 
   .pokedex-container {
-    background-color: #FF4E4A;
+    background-color: #ff4e4a;
     width: 330px;
     height: 660px;
   }
@@ -288,18 +294,17 @@ button {
 }
 
 @media only screen and (max-width: 320px) {
-  
   h1 {
     width: 265px;
     font-size: 30px;
   }
-  
+
   .inline-block {
     display: flex;
   }
 
   .pokedex-container {
-    background-color: #FF4E4A;
+    background-color: #ff4e4a;
     width: 265px;
     height: 660px;
   }
@@ -340,16 +345,16 @@ button {
     width: 135px;
   }
 
-.type {
-  width: 200px;
-}
+  .type {
+    width: 200px;
+  }
 
-.height-weight {
-  width: 200px;
-}
+  .height-weight {
+    width: 200px;
+  }
 
-.stats {
-  width: 200px;
-  padding: 8px 0 8px 0;
-}
+  .stats {
+    width: 200px;
+    padding: 8px 0 8px 0;
+  }
 }
