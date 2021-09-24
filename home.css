@@ -1,15 +1,32 @@
 * {
   text-align: center;
-  background-color: #C4EFFF;
+  background-color: #c4efff;
 }
 
-header {
-  background-color: #FF4E4A;
+nav {
+  background-color: #ff4e4a;
   height: 35px;
+  width: 100%;
+}
+
+.link {
+  float: left;
+  color: white;
+  text-align: center;
+  font-family: "Boogaloo", sans-serif;
+  font-size: 25px;
+  margin: 0 15px 0 15px;
+  text-decoration: none;
+  background-color: #ff4e4a;
+}
+
+.link:hover {
+  color: #ffd4d4;
+  cursor: pointer;
 }
 
 h1 {
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
   color: white;
   width: 350px;
   margin: 30px auto;
@@ -26,18 +43,18 @@ h2 {
 
 .home-container {
   width: 550px;
-  height: 350px;
   border-radius: 20px;
   margin: auto;
-  display: flex;
+  padding: 20px;
+  display: inline-block;
   justify-content: center;
   align-items: center;
-  background-color: #FFEA7B;
+  background-color: #ffea7b;
 }
 
 .inline-button {
   display: inline-flex;
-  background-color: #FFEA7B;
+  background-color: transparent;
 }
 
 #i-choose-you {
@@ -57,7 +74,7 @@ h2 {
   background-color: #ff8280;
 }
 
-#i-choose-you h3{
+#i-choose-you h3 {
   font-family: "boogaloo", sans-serif;
   background-color: #fef5e1;
 }
@@ -69,7 +86,7 @@ h2 {
 
 .outline {
   border-width: 5px;
-  border-color: #FF4E4A;
+  border-color: #ff4e4a;
   border-style: solid;
   border-radius: 20px;
   background-color: #fef5e1;
@@ -78,7 +95,7 @@ h2 {
 }
 
 #pokeresearch {
-  background-color: #18BCA2;
+  background-color: #18bca2;
   width: 200px;
   height: 200px;
   border-radius: 20px;
@@ -106,7 +123,7 @@ h2 {
 }
 
 .circle {
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
   border-radius: 50%;
   width: 100px;
   margin: auto;
@@ -122,12 +139,56 @@ h2 {
   background-color: #fef5e1;
 }
 
+.inline-btn-2 {
+  display: inline-table;
+  background-color: transparent;
+}
+
+.pokebinder {
+  background-color: #ff4e4a;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 20px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 3px 5px 10px rgb(89, 89, 89);
+}
+
+.pokebinder img {
+  height: 110px;
+  background-color: transparent;
+  margin: auto;
+}
+
+.pokebinder h3 {
+  font-family: "boogaloo", sans-serif;
+  background-color: #fef5e1;
+  margin-bottom: 7px;
+}
+
+.pokebinder:hover {
+  background-color: #ff8280;
+}
+
+.outline3 {
+  border-width: 5px;
+  border-color: #197092;
+  border-style: solid;
+  border-radius: 20px;
+  width: 175px;
+  height: 175px;
+  background-color: #fef5e1;
+}
+
 @media only screen and (max-width: 600px) {
   .home-container {
     width: 350px;
     height: 485px;
   }
-  
+
   .inline-button {
     display: block;
     flex-direction: column;

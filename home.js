@@ -9,3 +9,9 @@ const pokeresearchURL = "./dex.html";
 pokeresearchBtn.addEventListener("click", () => {
   window.open(pokeresearchURL, "_self");
 });
+
+const pokebinderBtn = document.querySelector(".pokebinder");
+const pokebinderURL = "https://flamboyant-goldwasser-1c3004.netlify.app/ ";
+pokebinderBtn.addEventListener("click", () => {
+  window.open(pokebinderURL, "_self");
+});
