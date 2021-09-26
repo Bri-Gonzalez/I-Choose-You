@@ -5,8 +5,10 @@
 
 nav {
   background-color: #ff4e4a;
-  height: 35px;
+  height: 40px;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .link {
@@ -42,7 +44,6 @@ h2 {
 }
 
 .home-container {
-  width: 550px;
   border-radius: 20px;
   margin: auto;
   padding: 20px;
@@ -62,7 +63,7 @@ h2 {
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  margin: 0px 10px 0px 0px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,6 +83,7 @@ h2 {
 #i-choose-you img {
   width: 160px;
   background-color: #fef5e1;
+  margin: 8px 0 0 0;
 }
 
 .outline {
@@ -99,7 +101,7 @@ h2 {
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  margin: 0px 0px 0px 10px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,17 +141,12 @@ h2 {
   background-color: #fef5e1;
 }
 
-.inline-btn-2 {
-  display: inline-table;
-  background-color: transparent;
-}
-
-.pokebinder {
+#pokebinder {
   background-color: #ff4e4a;
   width: 200px;
   height: 200px;
   border-radius: 20px;
-  margin: 20px 10px 0px 0px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,19 +154,19 @@ h2 {
   box-shadow: 3px 5px 10px rgb(89, 89, 89);
 }
 
-.pokebinder img {
+#pokebinder img {
   height: 110px;
   background-color: transparent;
   margin: auto;
 }
 
-.pokebinder h3 {
+#pokebinder h3 {
   font-family: "boogaloo", sans-serif;
   background-color: #fef5e1;
   margin-bottom: 7px;
 }
 
-.pokebinder:hover {
+#pokebinder:hover {
   background-color: #ff8280;
 }
 
@@ -184,11 +181,6 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
-  .home-container {
-    width: 350px;
-    height: 485px;
-  }
-
   .inline-button {
     display: block;
     flex-direction: column;
@@ -201,33 +193,17 @@ h2 {
   }
 
   #pokeresearch {
+    margin: 25px auto;
+  }
+
+  #pokebinder {
     margin: 25px auto;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .home-container {
-    width: 265px;
-    height: 485px;
-  }
-
-  .inline-button {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-
   h1 {
     width: 265px;
     font-size: 40px;
-  }
-
-  #i-choose-you {
-    margin: 25px auto;
-  }
-
-  #pokeresearch {
-    margin: 25px auto;
   }
 }

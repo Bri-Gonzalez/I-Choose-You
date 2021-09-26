@@ -4,28 +4,30 @@
 }
 
 .topnav {
-  background-color: #FF4E4A;
-  height: 35px;
+  background-color: #ff4e4a;
+  height: 40px;
+  width: 100%;
   display: flex;
-  justify-content: right;
   align-items: center;
 }
 
 .link {
-  background-color: #FF4E4A;
-  float: right;
+  float: left;
   color: white;
-  font-family: "itim", sans-serif;
+  text-align: center;
+  font-family: "Boogaloo", sans-serif;
+  font-size: 25px;
   margin: 0 15px 0 15px;
-  font-size: 17px;
+  text-decoration: none;
+  background-color: #ff4e4a;
 }
 
 .link:hover {
-  color: #FFD4D4;
+  color: #ffd4d4;
 }
 
 h1 {
-  background-color: #FF4E4A;
+  background-color: #ff4e4a;
   color: white;
   width: 350px;
   margin: 30px auto;
@@ -65,12 +67,24 @@ p {
 }
 
 @keyframes shake {
-  0% { transform: translate(0px, 0px) rotate(0deg); }
-  20% { transform: translate(-8px, 0px) rotate(-18deg); }
-  30% { transform: translate(8px, 0px) rotate(18deg); }
-  50% { transform: translate(-8px, 0px) rotate(-8deg); }
-  60% { transform: translate(10px, 0px) rotate(10deg); } 
-  100% { transform: translate(0px, 0px) rotate(0deg); } 
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-8px, 0px) rotate(-18deg);
+  }
+  30% {
+    transform: translate(8px, 0px) rotate(18deg);
+  }
+  50% {
+    transform: translate(-8px, 0px) rotate(-8deg);
+  }
+  60% {
+    transform: translate(10px, 0px) rotate(10deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
 }
 
 .button img {
@@ -78,7 +92,7 @@ p {
   margin: 0px 5px 5px 5px;
 }
 
-.button p{
+.button p {
   font-family: "boogaloo", sans-serif;
   font-size: 20px;
 }
@@ -87,11 +101,11 @@ p {
   margin: 35px auto;
   width: 205px;
   height: 205px;
-  border-color: #FF4E4A;
+  border-color: #ff4e4a;
   border-style: solid;
   border-width: 15px;
   border-radius: 20px;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -101,7 +115,7 @@ p {
   font-size: 30px;
   margin: 0 0 30px 0;
   text-transform: capitalize;
-  color: black
+  color: black;
 }
 
 .starter-container img {
