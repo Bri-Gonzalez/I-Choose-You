@@ -81,7 +81,7 @@ function appendSpeed(text) {
   pokemonStats.append(p);
 }
 
-const button = document.querySelector("#search");
+const button = document.querySelector(".search");
 button.addEventListener("click", () => {
   removePokemon();
   pokemonSearch();
@@ -94,7 +94,7 @@ async function pokemonSearch() {
   try {
     let res = await axios.get(`${URL}${search}`);
 
-    const leftBtn = document.querySelector("#left-btn");
+    const leftBtn = document.querySelector(".left-btn");
     leftBtn.addEventListener("click", () => {
       let currentPokemonId = document.querySelector(".id")
       let previousId = currentPokemonId.innerText.split("#")[1]
@@ -104,7 +104,7 @@ async function pokemonSearch() {
       pokemonClickLeft(previousId);
     })
 
-    const rightBtn = document.querySelector("#right-btn");
+    const rightBtn = document.querySelector(".right-btn");
     rightBtn.addEventListener("click", () => {
       let currentPokemonId = document.querySelector(".id")
       let previousId = currentPokemonId.innerText.split("#")[1]
