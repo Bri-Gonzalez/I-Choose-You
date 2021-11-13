@@ -1,15 +1,10 @@
-# Project Overview
-
-[PokéApps](https://bri-gonzalez.github.io/PokeApps/)
-
-## Project Name
-
-I Choose You
+# PokéApps
 
 ## Project Description
 
-This app will allow a user to choose their starter Pokémon so they can begin their journey as a trainer.
-The user will select one of 3 Poké Balls. The Poké Balls will be labeled by element type: grass, fire, and water. Once the user selects the element type they want, the app will generate back a random Pokémon name and image of that type.
+PokéApps is composed of multiple Pokémon related apps. I Choose You allows users to get a starter Pokémon and PokéSearch allows the user to search and navigate through all existing Pokémon and their data. 
+
+[Deployed Site](https://bri-gonzalez.github.io/PokeApps/)
 
 ## API and Data Sample
 
@@ -181,20 +176,19 @@ The user will select one of 3 Poké Balls. The Poké Balls will be labeled by el
   - Build a Pokédex
   - Allow user to search for a specific Pokémon and get back that Pokémon's data (name, picture, ID, type, height, weight, and base stats)
   - After user has searched a Pokémon, allow user to click left or right button to view the next Pokémon or previous based on index number
-  - User will be able to favorite and save Pokémon
 
-- Add a "Home" page where user can go between the apps "I Choose You" and "PokéResearch"
+- Add a "Home" page where user can go between the apps "I Choose You" and "PokéSearch"
 
 ## Project Schedule
 
 | Day            | Deliverable                                                  | Status   |
 | -------------- | ------------------------------------------------------------ | -------- |
-| August 27 - 29 | Prompt / Wireframes / Priority Matrix / Timeframes           | Complete |
-| August 30      | Project Approval/ Core Application Structure (HTML, CSS, JS) | Complete |
-| August 31      | Pseudocode / Actual Code                                     | Complete |
-| September 1    | CSS Styling                                                  | Complete |
-| September 2    | Complete MVP                                                 | Complete |
-| Septmeber 3    | Presentations                                                | Complete |
+| Aug 27 - 29 | Prompt / Wireframes / Priority Matrix / Timeframes           | Complete |
+| Aug 30      | Project Approval/ Core Application Structure (HTML, CSS, JS) | Complete |
+| Aug 31      | Pseudocode / Actual Code                                     | Complete |
+| Sept 1    | CSS Styling                                                  | Complete |
+| Sept 2    | Complete MVP                                                 | Complete |
+| Sept 3    | Presentations                                                | Complete |
 
 ## Priority Matrix
 
