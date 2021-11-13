@@ -4,7 +4,7 @@ iChooseYouBtn.addEventListener("click", () => {
   window.open(iChooseYouURL, "_self");
 });
 
-const pokeresearchBtn = document.querySelector(".pokeresearch");
+const pokeresearchBtn = document.querySelector(".pokesearch");
 const pokeresearchURL = "./dex.html";
 pokeresearchBtn.addEventListener("click", () => {
   window.open(pokeresearchURL, "_self");

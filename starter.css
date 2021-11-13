@@ -1,64 +1,64 @@
 * {
-  text-align: center;
   background-color: #fef5e1;
+  text-align: center;
 }
 
 .topnav {
+  align-items: center;
   background-color: #ff4e4a;
+  display: flex;
   height: 40px;
   width: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .link {
-  float: left;
+  background-color: #ff4e4a;
   color: white;
-  text-align: center;
   font-family: "Boogaloo", sans-serif;
   font-size: 25px;
   margin: 0 15px 0 15px;
   text-decoration: none;
-  background-color: #ff4e4a;
+  transition: 350ms;
 }
 
 .link:hover {
   color: #ffd4d4;
+  cursor: pointer;
 }
 
 h1 {
   background-color: #ff4e4a;
-  color: white;
-  width: 350px;
-  margin: 30px auto;
   border-radius: 20px;
+  color: white;
   font-family: "itim", sans-serif;
   font-size: 45px;
+  margin: 30px auto;
+  width: 350px;
 }
 
 .instructions {
-  width: 600px;
-  margin: 35px auto;
   display: flex;
   flex-direction: column;
+  margin: 35px auto;
+  width: 600px;
 }
 
 h2 {
-  margin: 5px;
   font-family: "boogaloo", sans-serif;
   font-size: 30px;
+  margin: 5px;
 }
 
 p {
-  margin: 5px;
   font-family: "nunito", sans-serif;
+  margin: 5px;
 }
 
 .button {
-  display: inline-flex;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  display: inline-flex;
 }
 
 .button img:hover {
@@ -88,8 +88,8 @@ p {
 }
 
 .button img {
-  width: 130px;
   margin: 0px 5px 5px 5px;
+  width: 130px;
 }
 
 .button p {
@@ -98,36 +98,28 @@ p {
 }
 
 .starter-container {
-  margin: 35px auto;
-  width: 205px;
-  height: 205px;
-  border-color: #ff4e4a;
-  border-style: solid;
-  border-width: 15px;
+  border: 15px solid #ff4e4a;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  height: 205px;
   justify-content: center;
+  margin: 35px auto;
+  width: 205px;
 }
 
 .starter-container h3 {
+  color: black;
   font-family: "boogaloo", sans-serif;
   font-size: 30px;
   margin: 0 0 30px 0;
   text-transform: capitalize;
-  color: black;
 }
 
 .starter-container img {
   height: 130px;
   width: 130px;
 }
-
-/* @media only screen and (max-width: 1024px) {
-  .button img:hover {
-    animation-iteration-count: 1;
-  }
-} */
 
 @media only screen and (max-width: 600px) {
   h1 {
@@ -141,31 +133,22 @@ p {
   .button img {
     width: 90px;
   }
-}
 
-.button img:hover {
-  animation-iteration-count: 1;
-}
-
-@media only screen and (max-width: 320px) {
-  h1 {
-    font-size: 40px;
-    width: 270px;
+  .button img:hover {
+    animation-iteration-count: 1;
   }
+}
 
-  .instructions {
-    width: 270px;
+@media only screen and (max-width: 375px) {
+  h1, .instructions {
+    width: 260px;
   }
 
   h2 {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .button img {
     width: 76px;
-  }
-
-  .button img:hover {
-    animation-iteration-count: 1;
   }
 }

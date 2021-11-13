@@ -22,7 +22,7 @@ function appendName(text) {
 }
 
 //GRASS
-const grassBtn = document.querySelector("#grassBtn");
+const grassBtn = document.querySelector(".grassBtn");
 grassBtn.addEventListener("click", () => {
   removePokemon()
   grassPokemon()
@@ -46,7 +46,7 @@ async function grassPokemon() {
 }
 
 //FIRE
-const fireBtn = document.querySelector("#fireBtn");
+const fireBtn = document.querySelector(".fireBtn");
 fireBtn.addEventListener("click", () => {
   removePokemon()
   firePokemon()
@@ -70,7 +70,7 @@ async function firePokemon() {
 }
 
 //WATER
-const waterBtn = document.querySelector("#waterBtn");
+const waterBtn = document.querySelector(".waterBtn");
 waterBtn.addEventListener("click", () => {
   removePokemon()
   waterPokemon()
