@@ -1,25 +1,26 @@
 * {
-  text-align: center;
   background-color: #c4efff;
+  text-align: center;
 }
 
 nav {
+  align-items: center;
   background-color: #ff4e4a;
+  display: flex;
   height: 40px;
   width: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .link {
-  float: left;
+  background-color: #ff4e4a;
   color: white;
-  text-align: center;
+  float: left;
   font-family: "Boogaloo", sans-serif;
   font-size: 25px;
   margin: 0 15px 0 15px;
+  text-align: center;
   text-decoration: none;
-  background-color: #ff4e4a;
+  transition: 350ms;
 }
 
 .link:hover {
@@ -29,12 +30,12 @@ nav {
 
 h1 {
   background-color: #ff4e4a;
-  color: white;
-  width: 350px;
-  margin: 30px auto;
   border-radius: 20px;
+  color: white;
+  margin: 30px auto;
   font-family: "itim", sans-serif;
   font-size: 45px;
+  width: 350px;
 }
 
 h2 {
@@ -44,21 +45,25 @@ h2 {
 }
 
 .home-container {
-  border-radius: 20px;
-  margin: auto;
-  padding: 20px;
-  display: inline-block;
-  justify-content: center;
   align-items: center;
   background-color: #ffea7b;
+  border-radius: 20px;
+  display: inline-block;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
 }
 
-.inline-button {
+.inline-btns {
   display: inline-flex;
   background-color: transparent;
 }
 
-#i-choose-you {
+.i-choose-you-container {
+  background-color: #ffea7b;
+}
+
+.i-choose-you {
   background-color: #197092;
   width: 200px;
   height: 200px;
@@ -71,132 +76,159 @@ h2 {
   box-shadow: 3px 5px 10px rgb(89, 89, 89);
 }
 
-#i-choose-you:hover {
+.i-choose-you:hover {
   background-color: #ff8280;
 }
 
-#i-choose-you h3 {
-  font-family: "boogaloo", sans-serif;
-  background-color: #fef5e1;
-}
-
-#i-choose-you img {
-  width: 160px;
-  background-color: #fef5e1;
-  margin: 8px 0 0 0;
-}
-
-.outline {
-  border-width: 5px;
-  border-color: #ff4e4a;
-  border-style: solid;
+.i-choose-you-outline {
+  border: 5px solid #ff4e4a;
   border-radius: 20px;
   background-color: #fef5e1;
-  width: 175px;
-  height: 175px;
-}
-
-#pokeresearch {
-  background-color: #18bca2;
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
-  margin: 10px;
   display: flex;
-  justify-content: center;
+  height: 175px;
+  width: 175px;
+}
+
+.i-choose-you-circle {
   align-items: center;
-  cursor: pointer;
-  box-shadow: 3px 5px 10px rgb(89, 89, 89);
-}
-
-#pokeresearch:hover {
-  background-color: #ff8280;
-}
-
-#pokeresearch h3 {
-  font-family: "boogaloo", sans-serif;
-  background-color: #fef5e1;
-}
-
-#pokeresearch img {
-  height: 95px;
-  background-color: transparent;
+  background-color: #197092;
+  border-radius: 50%;
+  display: flex;
+  height: 80%;
+  justify-content: center;
   margin: auto;
+  width: 80%;
 }
 
-.circle {
+.i-choose-you img {
+  background-color: transparent;
+  margin: 8px 0 0 0;
+  width: 120%;
+}
+
+.i-choose-you-title h3,
+.pokesearch-title h3,
+.pokebinder-title h3 {
+  background-color: #ffea7b;
+  font-family: "boogaloo", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  margin: 15px 0 0 0;
+}
+
+.pokesearch-container {
+  background-color: #ffea7b;
+}
+
+.pokesearch {
+  align-items: center;
+  background-color: #ff4e4a;
+  border-radius: 20px;
+  box-shadow: 3px 5px 10px rgb(89, 89, 89);
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin: 10px;
+  width: 200px;
+}
+
+.pokesearch:hover {
+  background-color: #ff8280;
+  cursor: pointer;
+}
+
+.pokesearch-outline {
+  background-color: #fef5e1;
+  border: 5px solid #197092;
+  border-radius: 20px;
+  display: flex;
+  height: 175px;
+  width: 175px;
+}
+
+.pokesearch-circle {
   background-color: #ff4e4a;
   border-radius: 50%;
-  width: 100px;
-  margin: auto;
-}
-
-.outline2 {
-  border-width: 5px;
-  border-color: #197092;
-  border-style: solid;
-  border-radius: 20px;
-  width: 175px;
-  height: 175px;
-  background-color: #fef5e1;
-}
-
-#pokebinder {
-  background-color: #ff4e4a;
-  width: 200px;
-  height: 200px;
-  border-radius: 20px;
-  margin: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  box-shadow: 3px 5px 10px rgb(89, 89, 89);
+  height: 80%;
+  margin: auto;
+  width: 80%;
 }
 
-#pokebinder img {
-  height: 110px;
+.pokesearch img {
   background-color: transparent;
+  height: 85%;
   margin: auto;
 }
 
-#pokebinder h3 {
-  font-family: "boogaloo", sans-serif;
+.pokebinder-container {
+  background-color: #ffea7b;
+}
+
+.pokebinder {
+  align-items: center;
+  background-color: #197092;
+  border-radius: 20px;
+  box-shadow: 3px 5px 10px rgb(89, 89, 89);
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin: 10px;
+  width: 200px;
+}
+
+.pokebinder-outline {
   background-color: #fef5e1;
+  border: 5px solid #ff4e4a;
+  border-radius: 20px;
+  display: flex;
+  height: 175px;
+  width: 175px;
+}
+
+.pokebinder-circle {
+  background-color: #197092;
+  border-radius: 50%;
+  display: flex;
+  height: 80%;
+  margin: auto;
+  width: 80%;
+}
+
+.pokebinder img {
+  background-color: transparent;
+  height: 100%;
+  margin: auto;
+}
+
+.pokebinder h3 {
+  background-color: #fef5e1;
+  font-family: "boogaloo", sans-serif;
   margin-bottom: 7px;
 }
 
-#pokebinder:hover {
+.pokebinder:hover {
   background-color: #ff8280;
+  cursor: pointer;
 }
 
-.outline3 {
-  border-width: 5px;
-  border-color: #197092;
-  border-style: solid;
-  border-radius: 20px;
-  width: 175px;
-  height: 175px;
-  background-color: #fef5e1;
-}
-
-@media only screen and (max-width: 600px) {
-  .inline-button {
+@media only screen and (max-width: 750px) {
+  .inline-btns {
+    align-content: center;
     display: block;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
   }
 
-  #i-choose-you {
+  .i-choose-you {
     margin: 25px auto;
   }
 
-  #pokeresearch {
+  .pokesearch {
     margin: 25px auto;
   }
 
-  #pokebinder {
+  .pokebinder {
     margin: 25px auto;
   }
 }
