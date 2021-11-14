@@ -159,7 +159,7 @@ PokéApps is composed of multiple Pokémon related apps. I Choose You allows use
 
 ## Wireframes
 
-![wireframe](https://res.cloudinary.com/dfryxohde/image/upload/v1630329431/Screen_Shot_2021-08-30_at_7.47.10_AM_xnz0pa.png)
+![wireframe](https://res.cloudinary.com/dfryxohde/image/upload/v1630329431/PokeApps/Screen_Shot_2021-08-30_at_7.47.10_AM_xnz0pa.png)
 
 ### MVP/PostMVP
 
@@ -192,7 +192,7 @@ PokéApps is composed of multiple Pokémon related apps. I Choose You allows use
 
 ## Priority Matrix
 
-![Matrix](https://res.cloudinary.com/dfryxohde/image/upload/v1630329445/Priority_Matrix_1_kl8qks.jpg)
+![Matrix](https://res.cloudinary.com/dfryxohde/image/upload/v1630329445/PokeApps/Priority_Matrix_1_kl8qks.jpg)
 
 ## Timeframes
 
