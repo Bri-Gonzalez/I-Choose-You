@@ -206,6 +206,7 @@ button {
 .height, .weight {
   align-items: center;
   background-color: white;
+  border-radius: 15px;
   display: flex;
   height: 30px;
   justify-content: center;
